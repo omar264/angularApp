@@ -11,6 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GameComponent } from './game/game.component';
+import { AppRouting } from './app-routing.module/app-routing.module.component';
 
 imports: [
   BrowserModule,
@@ -38,7 +40,9 @@ imports: [
     AuthenticationService,
     RecruiterComponent,
     JobSeekerComponent,
-    LoginComponent
+    LoginComponent,
+    GameComponent,
+    AppRouting.ModuleComponent
 
   ],
   imports: [

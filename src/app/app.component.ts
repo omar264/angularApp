@@ -35,4 +35,8 @@ todaydate;
         this.authenticationService.logout();
         this.router.navigate(['/login']);
     }
+    export class AppComponent {
+      title = 'application-form-frontend';
+      isAuthenticated: boolean;
+    }
 }
