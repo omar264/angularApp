@@ -8,6 +8,30 @@ import { HttpClientModule } from '@angular/common/http';
 import { RecruiterComponent } from './recruiter/recruiter.component';
 import { JobSeekerComponent } from './job-seeker/job-seeker.component';
 import { LoginComponent } from './login/login.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+imports: [
+  BrowserModule,
+  AppRoutingModule,
+  FlexLayoutModule,
+  FormsModule,
+  ReactiveFormsModule,
+  BrowserAnimationsModule,
+  MatToolbarModule,
+  MatInputModule,
+  MatCardModule,
+  MatMenuModule,
+  MatIconModule,
+  MatButtonModule,
+  MatTableModule,
+  MatDividerModule,
+  MatSlideToggleModule,
+  MatSelectModule,
+  MatOptionModule,
+  MatProgressSpinnerModule
+], /*from '@angular/material';  */
 @NgModule({
   declarations: [
     AppComponent,
