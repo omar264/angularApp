@@ -7,13 +7,14 @@ import { MyserviceService } from './myservice.service';
 import { HttpClientModule } from '@angular/common/http';
 import { RecruiterComponent } from './recruiter/recruiter.component';
 import { JobSeekerComponent } from './job-seeker/job-seeker.component';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
     AuthenticationService,
-    AuthenticationServiceComponent,
     RecruiterComponent,
-    JobSeekerComponent
+    JobSeekerComponent,
+    LoginComponent
 
   ],
   imports: [
